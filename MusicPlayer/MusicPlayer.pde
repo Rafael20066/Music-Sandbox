@@ -1,4 +1,8 @@
+//Libraries
+
 //Global Variables
+Minim minim; //creates object to access all functions
+AudioPlayer song1; //creates "play List" variable holding extensions WAV, AIFF, AU, SND, and MP3 
 
 void setup() {
   size(500, 600); //fullScreen(), displayWidth, displayHeight
